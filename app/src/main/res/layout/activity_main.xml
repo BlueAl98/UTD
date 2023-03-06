@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   android:padding="30dp"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints"
+
+    >
+    <ImageView
+        android:id="@+id/logoPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/logo"
+        />
+
+
+    <TextView
+        android:id="@+id/separadorBlanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoPrincipal"
+        android:paddingTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_empresa"
+        android:layout_below="@+id/separadorBlanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+
+        android:text="Empresas"
+
+
+        />
+
+    <TextView
+        android:id="@+id/separadorMain"
+        android:layout_below="@+id/btn_empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/bresidentes"
+        android:layout_below="@id/separadorMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+
+        android:text="Alumnos" />
+
+    <TextView
+        android:id="@+id/sShitsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bresidentes"
+        android:paddingTop="50dp"
+
+        />
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sShitsu"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/shitsu"
+        />
+
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

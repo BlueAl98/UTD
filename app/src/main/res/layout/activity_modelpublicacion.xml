@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imagePublic"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="20"
+        android:padding="10dp"
+        android:src="@drawable/icon_empleo"
+         />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="80"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloM"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:text="Titulo" />
+
+        <TextView
+            android:id="@+id/tvCarreraM"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:text="Carrera" />
+
+
+
+</LinearLayout>
+</LinearLayout>

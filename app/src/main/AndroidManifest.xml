@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="Android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="Android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UTD">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".MultipleChek" />
+        <activity
+            android:name=".EmpresaInteresadosPublicaciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerificacionSolicitudActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".residentes.EnvioDatosResidentesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InteresadosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".residentes.PublicResidentes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".updateVacantesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmpresaPublicacionesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".publicacionesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PerfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResidentesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

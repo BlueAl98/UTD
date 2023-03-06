@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EmpresaInteresadosPublicaciones">
+
+
+    <SearchView
+        android:id="@+id/txbusquedaPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Busqueda por carrera"
+
+        />
+
+    <TextView
+        android:id="@+id/tvepCorreoN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="TextView"
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Lista de sus publicaciones" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Seleccione la publicacion que desee para ver los interesados:" />
+
+    <Space
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+
+        />
+
+
+    <ListView
+        android:id="@+id/listVacantesN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

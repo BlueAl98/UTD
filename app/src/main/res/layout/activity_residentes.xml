@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResidentesActivity">
+
+
+    <TextView
+        android:id="@+id/tvtituloG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+        android:textAlignment="center"
+
+
+        />
+
+
+    <Space
+        android:id="@+id/espacio1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvtituloG"
+    />
+
+    <TextView
+        android:id="@+id/tvRCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+
+        android:layout_below="@+id/espacio1"
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+        />
+
+
+    <Space
+        android:id="@+id/espacio2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvRCarrera"
+        />
+
+    <TextView
+        android:id="@+id/tvRDescrpcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/espacio2"
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+        />
+
+
+    <Space
+        android:id="@+id/espacio3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvRDescrpcion"
+        />
+
+    <TextView
+        android:id="@+id/tvRRequisitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+
+        android:layout_below="@+id/espacio3"
+
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+
+        />
+
+
+    <Space
+        android:id="@+id/espacio4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvRRequisitos"
+        />
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+
+        android:layout_below="@+id/espacio4"
+
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+
+        />
+
+
+    <Space
+        android:id="@+id/espacio5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvContador"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/binteresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Me interesa"
+
+        android:layout_below="@+id/espacio5"
+        android:background="@drawable/custom_button"
+
+
+        />
+
+</RelativeLayout>

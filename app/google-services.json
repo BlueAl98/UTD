@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "575816860368",
+    "project_id": "utdapp",
+    "storage_bucket": "utdapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575816860368:android:14ad1019ea712120ed54d5",
+        "android_client_info": {
+          "package_name": "com.example.utd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575816860368-qjg5kb6o68i0e48rm45cdcalcadc5r0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utd",
+            "certificate_hash": "432e1ae0ff8d3f3eb34a4b10a0e8e9d0f6a20a51"
+          }
+        },
+        {
+          "client_id": "575816860368-r1erj4hbjuj8jr8r6p8rljv2tvk6d654.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0VMVq--IJis2acKvkCQTQZPiHUzrZsN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575816860368-r1erj4hbjuj8jr8r6p8rljv2tvk6d654.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

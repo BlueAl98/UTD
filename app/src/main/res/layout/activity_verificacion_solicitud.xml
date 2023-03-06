@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificacionSolicitudActivity"
+
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="100dp"
+    >
+
+
+    <TextView
+        android:id="@+id/mensajee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitud"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:longClickable="true"
+        />
+
+
+
+    <Space
+
+        android:id="@+id/seprador1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mensajee"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvvTituloFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Titulo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/seprador1"
+
+
+        />
+    <Space
+
+        android:id="@+id/seprador2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvvTituloFinal"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvvEnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/seprador2"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+
+        />
+
+
+    <Space
+
+        android:id="@+id/seprador3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvvEnombre"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvvEcarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/seprador3"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+
+        android:hint="Carrera"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:longClickable="true"
+
+        />
+
+    <TextView
+        android:id="@+id/tvvseparador"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:layout_below="@+id/tvvEcarrera"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+
+
+
+         />
+
+
+
+    <Button
+        android:id="@+id/imagenDescargar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvvseparador"
+      android:background="@drawable/custom_button"
+        android:text="Descargar cv"
+
+
+
+
+        />
+
+
+
+</RelativeLayout>
+

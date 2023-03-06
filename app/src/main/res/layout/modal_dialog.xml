@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <EditText
+        android:id="@+id/tvmnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:paddingEnd="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/tvmcarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carrera"
+        android:layout_below="@+id/tvmnombre"
+
+        />
+
+
+    <EditText
+        android:id="@+id/tvmcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CV"
+        android:layout_below="@+id/tvmcarrera"
+        />
+
+    <Button
+        android:id="@+id/bmenviar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_below="@+id/tvmcv"
+        android:layout_alignParentLeft="true"
+
+
+/>
+
+
+
+
+    <Button
+        android:id="@+id/bmsalir"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="salir"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvmcv"
+
+
+
+
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
+

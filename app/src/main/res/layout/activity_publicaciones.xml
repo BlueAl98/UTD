@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".publicacionesActivity"
+    android:padding="20dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Agregar Publicacion" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingEnd="500sp" />
+
+        <EditText
+            android:id="@+id/txpTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="Titulo publicacion"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Spinner
+            android:id="@+id/spinnerC2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/txpDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="Descripcion breve de la residencia"
+            android:inputType="text|textMultiLine"
+            android:paddingLeft="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/txpRequisitos"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:hint="Requisitos"
+            android:inputType="textMultiLine"
+            android:paddingLeft="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/bpublica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Publicar"
+            android:background="@drawable/custom_button"
+            />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".residentes.EnvioDatosResidentesActivity"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="150dp"
+
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvcabezaera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa los datos "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <EditText
+        android:id="@+id/txtTituloFinal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvcabezaera"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="5dp"
+
+
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/txtEnombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtTituloFinal"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="5dp"
+
+        />
+
+
+    <Spinner
+        android:id="@+id/spinnerC"
+        android:layout_below="@id/txtEnombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imagenSubir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/spinnerC"
+        android:src="@drawable/ic_subir"
+        android:background="?android:selectableItemBackground"
+
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvnombrecv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spinnerC"
+
+        android:layout_toRightOf="@+id/imagenSubir"
+
+        android:textAlignment="center" />
+
+
+
+
+    <Button
+        android:id="@+id/bEenviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenSubir"
+        android:visibility="invisible"
+        android:text="Enviar"
+
+    />
+
+    <Button
+        android:id="@+id/bEenviarVISIBLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagenSubir"
+        android:text="verificar"
+        android:background="@drawable/custom_button"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
